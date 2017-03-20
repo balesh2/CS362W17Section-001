@@ -25,6 +25,7 @@ public class Player {
 		public Player(GameState gameState, String player_username) {
 			this.player_username = player_username;
 			this.gameState = gameState;
+			//this.initializePlayerTurn();
 		}
 
 		final Card drawCard() {
@@ -59,6 +60,7 @@ public class Player {
 
 			//draw five cards and put them in the player's hand
 			for(int i=0; i<5; i++) {
+				System.out.println("INIT DRAW #" + (i+1));
 				drawCard();
 			}
 

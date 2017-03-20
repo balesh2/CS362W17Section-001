@@ -19,8 +19,6 @@ public class PlayDominion {
 
 		for(int i=1; i<=randNumPlay; i++) {
 			Player player = new Player(state, "player-"+i);
-			player.hand.add(Card.getCard(cards, Card.CardName.Adventurer));
-			player.hand.add(Card.getCard(cards, Card.CardName.Smithy));
 			state.addPlayer(player);
 		}
 
