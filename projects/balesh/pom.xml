@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>balesh</groupId>
-  <artifactId>dominion</artifactId>
+  <groupId>balesh.dominion</groupId>
+  <artifactId>Dominion</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -107,37 +107,37 @@
           <avoidCallsTo>
             <avoidCallsTo>java.io.PrintStream</avoidCallsTo>
           </avoidCallsTo>
-        <targetClasses>
+	  <!-- <targetClasses> -->
         	<!-- begin Uncomment to mutate Unit Tests -->
-            <param>balesh.dominion.Card</param>
-            <param>balesh.dominion.GameState</param>
-            <param>balesh.dominion.PlayDominion</param>
-            <param>balesh.dominion.Player</param>
-            <param>balesh.dominion.Randomness</param>
+		<!-- <param>balesh.dominion.Card</param> -->
+		<!-- <param>balesh.dominion.GameState</param> -->
+		<!-- <param>balesh.dominion.PlayDominion</param> -->
+		<!-- <param>balesh.dominion.Player</param> -->
+		<!-- <param>balesh.dominion.Randomness</param> -->
             <!-- end Uncomment to mutate Unit Tests -->
             
             <!-- begin Uncomment to mutate EvoSuite Tests -->
-            <param>balesh.dominion.Card_ESTest</param>
-            <param>balesh.dominion.GameState_ESTest</param>
-            <param>balesh.dominion.PlayDominion_ESTest</param>
-            <param>balesh.dominion.Player_ESTest</param>
-            <param>balesh.dominion.Randomness_ESTest</param>
+	    <!-- <param>balesh.dominion.Card_ESTest</param> -->
+	    <!-- <param>balesh.dominion.GameState_ESTest</param> -->
+	    <!-- <param>balesh.dominion.PlayDominion_ESTest</param> -->
+	    <!-- <param>balesh.dominion.Player_ESTest</param> -->
+	    <!-- <param>balesh.dominion.Randomness_ESTest</param> -->
             <!-- end Uncomment to mutate EvoSuite Tests -->
-        </targetClasses>
-        <targetTests>
-        	<!-- begin Uncomment to mutate Unit Tests -->
+    	<!-- </targetClasses> -->
+	<!-- <targetTests> -->
+            <!-- begin Uncomment to mutate Unit Tests -->
             <!-- <param>balesh.dominion.PlayDominionTest</param> -->
             <!-- <param>balesh.dominion.CardTest</param> -->
             <!-- end Uncomment to mutate Unit Tests -->
             
             <!-- begin Uncomment to mutate EvoSuite Tests -->
-            <param>balesh.dominion.PlayDominion_ESTest</param>
-            <param>balesh.dominion.Card_ESTest</param>
-            <param>balesh.dominion.GameState_ESTest</param>
-            <param>balesh.dominion.Player_ESTest</param>
-            <param>balesh.dominion.Randomness_ESTest</param>
+	    <!-- <param>balesh.dominion.PlayDominion_ESTest</param> -->
+	    <!-- <param>balesh.dominion.Card_ESTest</param> -->
+	    <!-- <param>balesh.dominion.GameState_ESTest</param> -->
+	    <!-- <param>balesh.dominion.Player_ESTest</param> -->
+	    <!-- <param>balesh.dominion.Randomness_ESTest</param> -->
             <!-- end Uncomment to mutate EvoSuite Tests -->
-        </targetTests>
+    	<!-- </targetTests> -->
     </configuration>
  		</plugin>
  		
